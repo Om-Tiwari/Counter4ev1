@@ -1,0 +1,78 @@
+body {
+  background-image: linear-gradient(
+    220deg,
+    hsl(296deg 91% 46%) 0%,
+    hsl(292deg 100% 45%) 20%,
+    hsl(287deg 100% 45%) 29%,
+    hsl(281deg 100% 46%) 36%,
+    hsl(275deg 97% 48%) 43%,
+    hsl(267deg 93% 51%) 50%,
+    hsl(266deg 94% 52%) 57%,
+    hsl(264deg 95% 53%) 64%,
+    hsl(263deg 96% 53%) 71%,
+    hsl(261deg 98% 54%) 80%,
+    hsl(260deg 99% 55%) 100%
+  );
+  padding-left: 300px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-right: 300px;
+}
+
+div {
+  background-image: url("BusStand.jpg");
+  background-position: center;
+  background-size: contain;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 16px;
+}
+
+h1 {
+  font-size: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+h2 {
+  font-size: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+h4 {
+  font-size: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: none;
+  padding: 10px 10px 10px 10px;
+  color: black;
+  font-size: auto;
+  font-weight: bold;
+  width: 100px;
+  border-radius: 25px;
+  margin: 0 auto;
+}
+
+button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#increment-btn {
+  background: thistle;
+}
+
+#save-btn {
+  background: yellow;
+}
+
+#reset-btn {
+  background: orangered;
+}
